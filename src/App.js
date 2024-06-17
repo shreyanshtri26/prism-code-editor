@@ -9,7 +9,7 @@ function App() {
         <h1 className="title">react-simple-code-editor</h1>
         <p className="desc">A simple no-frills code editor with syntax highlighting.</p>
         <a 
-          href="https://github.com/shreyanshtri26/prism-code-editor"
+          href="https://github.com/FormidableLabs/prism-react-renderer"
           target="_blank"
           rel="noopener noreferrer"
           className="github">
