@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.title_container{
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.title{
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+font-family: Fira code;
+}
+
+.desc{
+  margin: 14px 0px;
+}
+
+.github{
+  margin: auto;
+padding: 0px 6px;
+background-color: #000;
+color: #fff;
+cursor: pointer;
+width: fit-content;
+}
+
+.github:hover{
+  background-color: #eb5151;
+}
+#container {
+  width: 100%;
+}
+
+#editing,
+#highlighting {
+  margin: 0px;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  height: 450px;
+}
+
+#editing,
+#highlighting,
+#highlighting * {
+  font-size: 15px;
+  font-family: monospace;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#editing,
+#highlighting {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#editing {
+  z-index: 1;
+  resize: none;
+}
+
+#highlighting {
+  z-index: 0;
+}
+
+#editing {
+  color: transparent;
+  background: transparent;
+  caret-color: purple;
+}
+
+@media (min-width: 0px) and (max-width: 650px) {
+  #editing,
+#highlighting {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  
+}
